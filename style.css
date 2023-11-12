@@ -1,0 +1,424 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #1B2653;
+    font-size: 12px;
+}
+#container {
+    width: 80%;
+    height: 50%;
+    background-color: #1B2653;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+.cadastrese {
+    background-color: #1B2653; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto dentro do botão */
+    padding: 5px 15px; /* Ajuste conforme necessário */
+    border: none;
+    cursor: pointer;
+    border: 2px solid #fcfeff; /* Borda circular ao redor do botão */
+    border-radius: 25px; /* Raio da borda para torná-la circular */
+    right: auto;
+    margin-left: 10px;
+}
+.direita {
+    margin-left: auto;
+    background-color:#1B2653; /* Cor de fundo do botão */
+    color: #e90606; /* Cor do texto dentro do botão */
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    height: 4vh; 
+    transform: translateY(15px);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.bot3{
+    background-color: #1B2653;
+    font-size: 12px;
+    background-color:  #1B2653;
+    border: none;
+    color: #ffffff; 
+    padding:  0px;
+    text-align: center;
+    position: relative;
+    margin: 5px;
+}
+
+.bot3:hover {
+    color: #787878    ; /* Nova cor de texto quando hover */
+}
+
+.imgcima {
+    text-align: center; 
+    position: relative;
+    left: -70px;
+}
+
+.bot2 {
+    background-color: #1B2653;
+    font-size: 12px;
+    background-color:  #1B2653;
+    border: none;
+    color: #ffffff; 
+    padding:  0px;
+    text-align: center;
+    position: relative;
+    left: -80px;
+    transform: translateY(-15px);
+    margin: 5px;
+}
+.bot2:hover {
+    color: #787878    ; /* Nova cor de texto quando hover */
+}
+
+
+
+/* Estilizando a faixa acima dos quadrados */
+.quadrado1 {
+    background-color: #f0f0f0;
+    height: 20px;
+    width: 100%;
+}
+
+/* Estilizando os quadrados e as linhas */
+.Quadrados-no-meio {
+    display: flex;
+    margin-bottom: 10cm;
+    margin-top: 20px;
+    
+}
+
+
+
+#contaneir3 {
+    display: flex; /* Define o contêiner como um contêiner flexível */
+    flex-direction: row; /* Define a direção principal do layout para ser horizontal (linha) */
+    justify-content: center; /* Centraliza os itens ao longo do eixo principal (horizontalmente) */
+    align-items: center; /* Centraliza os itens ao longo do eixo transversal (verticalmente) */
+    height: 50vh; /* Define a altura do contêiner como 50% da altura da tela visível (viewport height) */
+    margin-bottom: -300px; /* Adiciona uma margem na parte inferior do contêiner */
+}
+
+.dado{
+    border: 1px solid #807f7f; /* Adiciona uma borda de 1px ao redor do campo */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    left: 200%;
+    margin-top: 0%;
+    margin: 10px;
+    width: 20%;
+    height: 300px;
+    transform: translate(50px, 50px);
+  
+}
+.dadosPessoais1 {
+    width: 10%;
+    display: flex;
+    margin-bottom: 20px;
+    left: 20px;
+    margin-top: 5px;
+    font-size: 12px;
+    
+}
+.dadosPessoais2 {
+    width: 10%;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: px;
+    margin-top: px;
+    top: 10%;
+    font-size: 12px;
+}
+.but {
+    background-color: white; 
+    border: none; /* Remove a borda */
+    text-decoration: underline; /* Adiciona sublinhado ao texto */
+    cursor: pointer; /* Adiciona cursor de ponteiro para indicar que é clicável */
+}
+
+.but2{ 
+    background-color: white; 
+    border: none; /* Remove a borda */
+    text-decoration: underline; /* Adiciona sublinhado ao texto */
+    cursor: pointer; /* Adiciona cursor de ponteiro para indicar que é clicável */
+}
+
+
+
+.regra {
+    width: 20%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    transform: translate(1000px, 2px);
+    border: 1px solid #787878;    
+    border-radius: 5px;
+  
+}
+
+input {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #FE6613;
+    color:  #ffffff;
+    font-weight: bold;
+    display: none;
+}
+
+.valor1{
+    font-size: 15px;
+}
+
+
+.valor2{
+    font-size: 15px;
+}
+
+.Proporção{
+    font-size: 15px;
+}
+
+.Calcular{
+    font-size: 12px;
+    background-color:#FE6613; /* Cor de fundo do botão */
+    color: #fcfcfc; /* Cor do texto dentro do botão */
+    padding: 10px 20px; /* Ajuste conforme necessário */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Adiciona um cursor ao passar o mouse */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+}
+
+
+
+
+.texto {
+    text-align: left;
+    
+}
+
+.texto p {
+    margin: 5px 0;
+    
+}
+
+.texto button {
+    background-color:#FE6613    ;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.texto button:hover {
+    background-color: #2d3a6b;
+}
+    .contato {
+        width: 200%; /* Ajuste a largura conforme necessário */
+        max-width: 300px; /* Adapte o valor máximo conforme necessário */
+        margin: auto; /* Centraliza horizontalmente */
+        padding: 50px; /* Adiciona um espaçamento interno */
+        background-color: #ffffff; /* Adapte a cor de fundo conforme necessário */
+        border: 1px solid #787878; /* Adiciona uma borda de 1px ao redor do campo */
+        border-radius: 5px; /* Adiciona bordas arredondadas */
+        box-sizing: border-box; /* Garante que a largura do campo inclua padding e borda */
+        transform: translate(-150px, 60px);
+        height: 285px;
+        
+    }
+    
+    .contato form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: -20%;
+        margin-top: -20%;
+    }
+    
+    .contato label {
+        margin-bottom: 10px; /* Adapte o espaçamento conforme necessário */
+    }
+    
+    .contato input {
+        padding: 5px; /* Adapte o preenchimento conforme necessário */
+        margin-bottom: 15px; /* Adapte o espaçamento conforme necessário */
+    }
+    
+    .contato button {
+        background-color: #FE6613;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5%;
+    }
+    .contato #assunto {
+        width: calc(120% - 20px); /* Ocupa 100% da largura do contêiner */
+        padding: 20px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc7c7;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+   
+.Quadrados-abaixo {
+    display: flex;
+    flex-direction: row; /* Dispor as imagens verticalmente */
+    justify-content: center;
+    align-items: center; /* Centralizar horizontalmente */
+    height: 50vh; /* 100% da altura da tela */
+}
+
+/* Estilo para a máscara escura de fundo */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+/* Estilo para o modal */
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* Estilo para o botão abrir imagem no modal */
+.imagem-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.imagem-clicavel {
+    height: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.imagem-clicavel:hover {
+    transform: scale(1.1);
+}
+
+.imagem-mascara {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 18px;
+    display: none;
+}
+
+.imagem-container:hover .imagem-mascara {
+    display: block;
+}
+.fechar-modal {
+    position: absolute;
+    top: 170px;
+    right: 510px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #f50808; /* Cor do ícone */
+}
+
+footer{
+    width: 100%;
+    height: 50%;
+    background-color: #1B2653;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container2 {
+    width: 80%;
+    height: 100%;
+    background-color: #1B2653;
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bot {
+    background-color: #1B2653;
+    font-size: 12px;
+    background-color:  #1B2653;
+    color: #ffffff; 
+    margin: 5px;
+    padding:  0px;
+    border: none;
+    
+}
+.bot:hover {
+    color: #787878; /* Nova cor de texto quando hover */
+}
+
+.class9{
+    background-color: #1B2653;
+    font-size: 12px;
+    background-color:  #1B2653;
+    border: none;
+    color: #ffffff; 
+    padding:  0px;
+    text-align: center;
+    position: relative;
+    left: 350px;
+}
+
+.img{
+    background-color:  #1B2653;
+    border: none; 
+    padding:  0px;
+    text-align: center;
+    position: relative;
+    left: 75px;
+}
+/* Máscara escura no CPF quando focado */
+#cpf:focus {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro */
+    color: #fff; /* Cor do texto quando focado */
+}

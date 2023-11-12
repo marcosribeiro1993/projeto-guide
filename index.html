@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imobiliária XYZ</title>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div id="container">
+        <div class="esquerda">
+        <img class="imgcima" src="img.png" alt="">
+        <button class="bot2">Condomínios</button>
+        <button class="bot2">Fórum</button>
+        <button class="bot2">Guia</button>
+        <button class="bot2">Artigos</button>
+        <button class="bot2">Ferramentas</button>
+    </div>
+
+        <div class="direita">
+        <button class="bot3">Cotar Imóvel</button>
+        <button class="bot3">Planos</button>
+        <button class="bot3">Entrar</button>
+        <button class="cadastrese">CADASTRE-SE</button>
+        </div>
+    </div>
+    </nav>
+
+  
+    <div id="contaneir3">
+        <div class="dado">
+        <div class="dadosPessoais1">
+            <div class="img1">
+                <img src="foto1.png" alt="">
+            </div>
+            <div class="texto">
+                 <p>Nome Corretora</p>
+                <p>3.000 pontos</p>
+                <button class="but">Ver Telefone</button>
+            </div>
+        </div>
+        <div class="dadosPessoais2">
+            <div class="img2">
+                <img src="foto2.png" alt="">
+            </div>
+            <div class="texto">
+                <p>Nome Corretora</p>
+                <p>3.000 pontos</p>
+                <button class="but2">Ver Telefone</button>
+            </div>
+        </div>
+    </div>
+ 
+
+        <div class="contato">
+            <form>
+                <label for="cpf"></label>
+                <input type="text" id="cpf" placeholder="Digite seu CPF" oninput="mascararCPF(this)" onfocus="mostrarPlaceholder(this)">
+        
+                <label for="telefone"></label>
+                <input type="text" id="telefone" placeholder="Digite seu telefone" oninput="mascararTelefone(this)" onfocus="mostrarPlaceholder(this)">
+        
+                <label for="assunto"></label>
+                <input type="text" id="assunto" placeholder="Digite o assunto" onfocus="mostrarPlaceholder(this)">
+                <button onclick="enviarFormulario()">Enviar Mensagem</button>
+            </form>
+        </div>
+     </div>
+
+     <div class="regra">
+
+        <label for="valor1" class="valor1">Valor 1:</label>
+        <input type="number" id="valor1">
+
+        <label for="valor2" class="valor2">Valor 2:</label>
+        <input type="number" id="valor2">
+
+        <label for="proporcao" class="Proporção">Proporção:</label>
+        <input type="number" id="proporcao">
+
+        <button onclick="calcularRegraDe3()" class="Calcular">Calcular</button>
+
+        <div id="resultado">Resultado: </div>
+
+     </div>
+
+       <!-- Botões para abrir as imagens no modal -->
+    <div class="Quadrados-abaixo">
+        <div class="imagem-container" onclick="abrirModal('casa1.png', 'Casa 1')">
+            <img src="casa1.png" alt="" class="imagem-clicavel">
+            <div class="imagem-mascara"></div>
+        </div>
+        <div class="imagem-container" onclick="abrirModal('casa2.png', 'Casa 2')">
+            <img src="casa2.png" alt="" class="imagem-clicavel">
+            <div class="imagem-mascara"></div>
+        </div>
+        <div class="imagem-container" onclick="abrirModal('casa3.png', 'Casa 3')">
+            <img src="casa3.png" alt="" class="imagem-clicavel">
+            <div class="imagem-mascara"></div>
+        </div>
+    </div>
+
+    <!-- Máscara escura de fundo e conteúdo do modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <!-- Conteúdo do modal aqui -->
+            <span id="fecharModal" class="fechar-modal" onclick="fecharModal()">&times;</span>
+            <img id="modalImagem" alt="Imagem do Modal">
+            
+        </div>
+    </div>
+       
+    <footer>
+        <div id="container2">
+            <div class="class8">
+            <button class="bot">Termos</button>
+            <button class="bot">Contatos</button>
+            <button class="bot">Sobre</button>
+            </div>
+
+            <div class="class9">
+            <p>&copy; © Copyright 2022. Todos os direitos reservados.</p> 
+            </div>
+
+            <div class="img">
+            <img src="img2.png" alt="">
+            </div>
+        
+        </div>
+    </footer>  
+
+    <script src="script.js"></script>
+</body>
+</html>
